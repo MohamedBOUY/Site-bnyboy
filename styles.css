@@ -1,0 +1,97 @@
+/* Section d'accueil avec image de fond */
+.hero {
+background: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+min-height: 60vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 40px;
+}
+
+.hero h1,
+.hero p {
+color: white;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Navbar */
+.navbar {
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+/* Pages intérieures */
+main {
+background: #f8f9fa; /* gris clair élégant */
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+}
+
+/* Boutons */
+.btn {
+border-radius: 30px;
+padding: 10px 20px;
+font-weight: 500;
+transition: all 0.3s ease;
+}
+
+.btn-primary {
+background: #0d6efd;
+border: none;
+}
+
+.btn-primary:hover {
+background: #084298;
+transform: scale(1.05);
+}
+
+.btn-outline-light:hover {
+background: white;
+color: #0d6efd;
+}
+
+/* Galerie des réalisations */
+img {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+border-radius: 8px;
+}
+
+img:hover {
+transform: scale(1.05);
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+margin-top: 40px;
+font-size: 14px;
+background: #222;
+color: #bbb;
+padding: 15px 0;
+}
+
+footer a {
+color: #bbb;
+text-decoration: none;
+}
+
+footer a:hover {
+color: white;
+.card-img-top { height: 220px; object-fit: cover; }
+.card { border: none; box-shadow: 0 6px 20px rgba(0,0,0,.08); }
+.card:hover { transform: translateY(-3px); transition: .2s ease; 
+table.table th:first-child { background:#f8f9fa; }
+.table td, .table th { vertical-align: middle; 
+.stat-card { background:#fff; transition:transform .15s ease, box-shadow .15s ease; }
+.stat-card:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.08); }
+.card-img-top { height: 200px; object-fit: cover; 
+
+
+}
